@@ -1,0 +1,6 @@
+[submodule "lib/GxEPD"]
+	path = lib/GxEPD
+	url = https://github.com/lewisxhe/GxEPD
+[submodule "lib/TTGOT5V23Tools"]
+	path = lib/TTGOT5V23Tools
+	url = https://github.com/marcvivet/TTGOT5V23Tools
