@@ -3,7 +3,7 @@
 #include "TerminalManager.hpp"
 #include "WiFiManager.hpp"
 #include "TimeManager.hpp"
-
+#include "OpenWeatherManager.hpp"
 
 
 
@@ -28,8 +28,10 @@ void setup() {
 void loop() {
   TerminalManager& oTM = TerminalManager::getInstance();
   TimeManager& oTimeM = TimeManager::getInstance();
+  OpenWeatherManager& oOW = OpenWeatherManager::getInstance();
 
   oTimeM.printLocalTime();
+  oOW.getData();
   // put your main code here, to run repeatedly:
   //oTM.println("loop");
   //delay(1000);
