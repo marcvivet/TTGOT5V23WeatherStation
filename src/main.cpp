@@ -31,7 +31,7 @@ void loop() {
   OpenWeatherManager& oOW = OpenWeatherManager::getInstance();
 
   oTimeM.printLocalTime();
-  oOW.getData();
+  oOW.update(true);
   // put your main code here, to run repeatedly:
   //oTM.println("loop");
   //delay(1000);
